@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD1DC;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcccb;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #b22222;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.nav a {
+    margin: 0 15px;
+    color: #b22222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-section h2 {
+    font-size: 28px;
+    color: #b22222;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: 200px;
+    margin: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.load-more {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.reviews {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffb6c1;
+}
+
+.reviews h2 {
+    font-size: 28px;
+    color: #b22222;
+}
+
+.review {
+    margin: 20px;
+    font-style: italic;
+}
+
+.recommendation {
+    text-align: center;
+    margin: 15px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.recommendation img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.special-offer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffb6c1;
+}
+
+.special-offer h2 {
+    font-size: 28px;
+    color: #b22222;
+}
+
+.special-offer img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcccb;
+}
+
+.footer .social-media a img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.footer .payment-methods img {
+    width: 60px;
+    margin: 10px;
+}
